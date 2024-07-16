@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.CreateAccountPage"
+             Title="Créer un compte">
+    <StackLayout Padding="10">
+        <Label Text="Créer un compte" FontSize="24" />
+        <Entry Placeholder="username"/>
+        <Entry Placeholder="Email" Keyboard="Email"/>
+        <Entry Placeholder="Password" IsPassword="True"/>
+        <!--<Button Text="Créer" Clicked="OnSubmitClicked" />-->
+        <Button Text="Submit" Clicked="OnSubmitClicked" />
+
+    </StackLayout>
+</ContentPage>
